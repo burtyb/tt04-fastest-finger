@@ -3,6 +3,8 @@
 
 # Configuration docs: https://openlane.readthedocs.io/en/latest/reference/configuration.html
 
+set ::env(QUIT_ON_SYNTH_CHECKS) 0
+
 # User config
 set script_dir [file dirname [file normalize [info script]]]
 
